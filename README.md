@@ -1,7 +1,7 @@
 # Happy Birthday website for my girlfriend💖🎂🎉
 ## Next.JS v15.1 + Tailwind CSS + Swiper + MUI
 
-# Library
+# 📗 Library
 - [Swiper](https://swiperjs.com/)
 
 - [MUI](https://mui.com/)
