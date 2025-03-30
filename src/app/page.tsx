@@ -455,7 +455,7 @@ const Home: React.FC = () => {
         </a>
         <footer className="bottom-0 w-full text-center py-4 text-lg">
           <p>Made By <a className="transition transform hover:text-red-600" href='https://jittiphat.site'>Jittiphat Somsai</a></p>
-          <p className='hover:text-yellow-500'><a href='https://github.com/'>Source Code</a></p>
+          <p className='hover:text-yellow-500'><a href='https://github.com/Jittiphatz/Happy-Birthday-to-my-gf'>Source Code</a></p>
         </footer>
       </div>
     </>
