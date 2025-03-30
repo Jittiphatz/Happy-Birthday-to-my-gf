@@ -382,7 +382,6 @@ const Home: React.FC = () => {
         <p className="text-lg text-white bg-black/30 px-4 py-2 rounded-lg inline-block">
           ขณะนี้เวลา {formatClockTime(currentClockTime)}
         </p>
-
         <div className="bg-white rounded-2xl p-4 shadow-xl mx-auto mt-5 audio-player">
           <img
             src="/images/8.jpg"
@@ -395,7 +394,6 @@ const Home: React.FC = () => {
             <span>{formatTime(currentTime)}</span>
             <span>{formatTime(duration)}</span>
           </div>
-
           <input
             type="range"
             min="0"
@@ -410,7 +408,6 @@ const Home: React.FC = () => {
               }
             }}
           />
-
           <div className="audio-controls">
             <button
               onClick={handlePlayPause}
@@ -418,7 +415,6 @@ const Home: React.FC = () => {
             >
               {isPlaying ? 'Pause' : 'Play'}
             </button>
-
             <div className="volume-control">
               <i className="fas fa-volume-up mr-2"></i>
               <input
@@ -433,7 +429,6 @@ const Home: React.FC = () => {
               <span className="ml-2 w-8 text-right">{Math.round(volume * 100)}%</span>
             </div>
           </div>
-
           <audio
             ref={audioRef}
             src="/song/hbd.mp3"
@@ -445,7 +440,6 @@ const Home: React.FC = () => {
             }}
           />
         </div>
-
         <a href="/wish" className="mt-5">
           <ThemeProvider theme={theme}>
             <Button
@@ -459,7 +453,6 @@ const Home: React.FC = () => {
             </Button>
           </ThemeProvider>
         </a>
-
         <footer className="bottom-0 w-full text-center py-4 text-lg">
           <p>Made By <a className="transition transform hover:text-red-600" href='https://jittiphat.site'>Jittiphat Somsai</a></p>
           <p className='hover:text-yellow-500'><a href='https://github.com/'>Source Code</a></p>

@@ -61,8 +61,9 @@ const Wish = () => {
 
 
       <footer className="bottom-0 w-full text-center py-4 text-lg">
-        <p>Made By <a className="transition transform hover:text-white scale-105" href='vciosdfhuio'>Jittiphat Somsai</a></p>
-      </footer>
+          <p>Made By <a className="transition transform hover:text-red-600" href='https://jittiphat.site'>Jittiphat Somsai</a></p>
+          <p className='hover:text-yellow-500'><a href='https://github.com/'>Source Code</a></p>
+        </footer>
     </div>
   );
 };
