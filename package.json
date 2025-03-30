@@ -3,18 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 80",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.13.10",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@fontsource-variable/anuphan": "^5.2.5",
     "@fontsource/anuphan": "^5.2.5",
     "@mui/icons-material": "^7.0.0",
     "@mui/material": "^7.0.0",
+    "@opennextjs/cloudflare": "^0.6.5",
     "canvas-confetti": "^1.9.3",
     "next": "15.1.7",
     "react": "^19.0.0",
