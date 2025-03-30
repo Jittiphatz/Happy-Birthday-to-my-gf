@@ -224,7 +224,7 @@ const PasswordInput: React.FC<PasswordInputProps> = ({ onSubmit }) => {
               </button>
             </div>
             <p className="text-lg mb-4">Today in 2009</p>
-            <p className="text-blue-700 mb-4">0?/0?/2009</p>
+            <p className="text-blue-700 mb-4">0/0/2009</p>
             <ThemeProvider theme={theme}>
               <Button className="text-white" color='secondary' onClick={toggleHint} variant="contained">Close</Button>
             </ThemeProvider>
@@ -342,7 +342,7 @@ const Home: React.FC = () => {
   };
 
   const handlePasswordSubmit = (inputPassword: string) => {
-    if (inputPassword === '01042009') {
+    if (inputPassword === '142009') {
       alert('รหัสผ่านถูกต้องคั้บ! เก่งมากอ้วน💖');
       setIsPasswordEntered(true);
       setTimeout(() => {
