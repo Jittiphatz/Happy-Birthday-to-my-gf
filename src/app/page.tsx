@@ -10,6 +10,7 @@ import '@fontsource/anuphan/500.css';
 import '@fontsource/anuphan/700.css';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import TextField from '@mui/material/TextField';
+export const runtime = "edge";
 
 const fadeInStyle = `
   .fade-in {

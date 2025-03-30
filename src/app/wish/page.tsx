@@ -10,6 +10,7 @@ import '@fontsource/anuphan/500.css';
 import '@fontsource/anuphan/700.css';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
+export const runtime = "edge";
 
 const Wish = () => {
   const theme = createTheme({
