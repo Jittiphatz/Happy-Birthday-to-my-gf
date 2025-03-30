@@ -27,5 +27,6 @@ bun run dev # (for run dev)
 ![Home](https://raw.githubusercontent.com/Jittiphatz/Happy-Birthday-to-my-gf/848a2b3c2ad2a7098c46347acce589fc08f17745/public/images/Screenshot.png)
 
 <h2>Wish</h2>
-![Wish]()
+
+![Wish](https://raw.githubusercontent.com/Jittiphatz/Happy-Birthday-to-my-gf/refs/heads/main/public/images/wish.png)
 
