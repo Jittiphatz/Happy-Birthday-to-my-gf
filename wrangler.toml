@@ -1,5 +1,4 @@
 name = "bd-iicxery"
-account_id = "5f38660628fe72b53e035c79c8f94b39"
 compatibility_date = "2025-03-30"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
